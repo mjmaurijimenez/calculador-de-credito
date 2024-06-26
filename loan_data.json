@@ -1,0 +1,78 @@
+[
+    {
+        "amount": "10000.00",
+        "annualInterestRate": "5.00",
+        "years": 5,
+        "monthlyPayment": "188.71",
+        "totalInterest": "1322.74",
+        "payments": [
+            {
+                "paymentNumber": 1,
+                "monthlyPayment": "188.71",
+                "interestPayment": "41.67",
+                "principalPayment": "147.04",
+                "balance": "9852.96"
+            },
+            {
+                "paymentNumber": 2,
+                "monthlyPayment": "188.71",
+                "interestPayment": "41.05",
+                "principalPayment": "147.66",
+                "balance": "9705.30"
+            },
+            {
+                "paymentNumber": 3,
+                "monthlyPayment": "188.71",
+                "interestPayment": "40.44",
+                "principalPayment": "148.27",
+                "balance": "9557.03"
+            },
+            
+            {
+                "paymentNumber": 60,
+                "monthlyPayment": "188.71",
+                "interestPayment": "0.78",
+                "principalPayment": "187.93",
+                "balance": "0.00"
+            }
+        ]
+    },
+    {
+        "amount": "15000.00",
+        "annualInterestRate": "4.50",
+        "years": 7,
+        "monthlyPayment": "206.91",
+        "totalInterest": "3830.28",
+        "payments": [
+            {
+                "paymentNumber": 1,
+                "monthlyPayment": "206.91",
+                "interestPayment": "56.25",
+                "principalPayment": "150.66",
+                "balance": "14849.34"
+            },
+            {
+                "paymentNumber": 2,
+                "monthlyPayment": "206.91",
+                "interestPayment": "55.31",
+                "principalPayment": "151.60",
+                "balance": "14697.74"
+            },
+            {
+                "paymentNumber": 3,
+                "monthlyPayment": "206.91",
+                "interestPayment": "54.37",
+                "principalPayment": "152.54",
+                "balance": "14545.20"
+            },
+            
+            {
+                "paymentNumber": 84,
+                "monthlyPayment": "206.91",
+                "interestPayment": "0.77",
+                "principalPayment": "206.14",
+                "balance": "0.00"
+            }
+        ]
+    }
+]

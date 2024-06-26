@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.result {
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: right;
+}
+th {
+    background-color: #f4f4f4;
+}

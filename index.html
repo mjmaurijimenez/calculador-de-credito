@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Crédito</h1>
+        <form id="loan-form">
+            <div>
+                <label for="amount">Monto del Préstamo:</label>
+                <input type="number" id="amount" required>
+            </div>
+            <div>
+                <label for="interest">Tasa de Interés Anual (%):</label>
+                <input type="number" id="interest" step="0.01" required>
+            </div>
+            <div>
+                <label for="years">Plazo (años):</label>
+                <input type="number" id="years" required>
+            </div>
+            <button type="submit">Calcular</button>
+        </form>
+        <div class="result" id="result">
+        </div>
+        <div class="history" id="history">
+            <h2>Historial de Cálculos</h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
